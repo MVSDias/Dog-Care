@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  margin: 44px 0 0 76px;
+}
+
+a {
+  margin-right: 23px;
+  color: #989d9c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.login {
+  width: 130px;
+  height: 41px;
+  border-radius: 20.5px;
+  background: #665ae1;
+  color: #fff;
+  
+  font-weight: 600;
+}
+
+section {
+  display: inline-block;
+}
+
+img {
+  width: 568px;
+  height: 500px;
+  margin: 144px 183.08px 125px;
+}
+
+div {
+  display: inline-block;
+  position: absolute;
+}
+
+h1 {
+  color: #515151;
+  font-size: 100px;
+  font-weight: 900;
+  margin-top: 146px;
+  width: 513px;
+  height: auto;
+}
+
+h2 {
+  color: #515151;
+  font-size: 58px;
+  font-weight: 500;
+
+  width: 448px;
+  height: auto;
+}
+
+p {
+  color: #848484;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 515px;
+  height: auto;
+}
+
+.explore {
+  width: 239px;
+  height: 64px;
+  border-radius: 30px;
+  background: #adff00;
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  border: none;
+}
+
+@media screen and (max-width:900px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  a {
+    display: none;
+  }
+
+  .login {
+    display: block;
+    margin: auto auto;
+  }
+  section {
+    display: inline-block;
+    margin: 0;
+  }
+
+  div {
+    
+    display: block;
+    width: 100vw;
+    display: block;
+    
+    
+  }
+
+  h1 {
+    margin: auto auto;
+    
+  }
+
+  h2 {
+    margin: auto auto;
+    
+
+  }
+
+  p {
+    margin: auto auto;
+    
+  }
+  
+  .explore {
+    margin: auto auto;
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:450px){
+
+  
+  
+  header {
+    margin: 0;
+    padding-top: 40px;
+  }
+  
+  .login {
+    margin: auto auto;
+    font-size: 15px;
+    width: 116px;
+    height: 37px;
+  }
+
+  section {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+    margin: 144px 49px 70px 50px;
+   
+  }
+
+  h1 {
+    font-size: 62px;
+    width: 377px;
+    text-align: center;
+  }
+   h2 {
+    font-size: 45px;
+    width: 380px;
+    text-align: center;
+   }
+
+   p {
+    font-size: 18px;
+    width: 370px;
+    text-align: justify;
+   }
+}
